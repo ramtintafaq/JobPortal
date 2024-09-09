@@ -1,0 +1,20 @@
+GET http://127.0.0.1:8080
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-02T154652.200.html
+
+###
+
+POST http://127.0.0.1:8080/register/new
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.0.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T153100.400.json
+
+###
+
