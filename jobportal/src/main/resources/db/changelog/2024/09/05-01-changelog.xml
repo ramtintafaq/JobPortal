@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.23.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1725536204061-2" author="ramtin.tfgh">
+        <dropForeignKeyConstraint baseTableName="job_post_activity" constraintName="FK44003mnvj29aiijhsc6ftsgxe"/>
+    </changeSet>
+    <changeSet id="1725536204061-3" author="ramtin.tfgh">
+        <dropForeignKeyConstraint baseTableName="job_post_activity" constraintName="FK62yqqbypsq2ik34ngtlw4m9k3"/>
+    </changeSet>
+    <changeSet id="1725536204061-4" author="ramtin.tfgh">
+        <dropForeignKeyConstraint baseTableName="job_seeker_apply" constraintName="FKmfhx9q4uclbb74vm49lv9dmf4"/>
+    </changeSet>
+    <changeSet id="1725536204061-5" author="ramtin.tfgh">
+        <dropForeignKeyConstraint baseTableName="job_seeker_save" constraintName="FKpb44x040gkdltxqy9m7jmvvf3"/>
+    </changeSet>
+    <changeSet id="1725536204061-6" author="ramtin.tfgh">
+        <dropForeignKeyConstraint baseTableName="job_post_activity" constraintName="FKpjpv059hollr4tk92ms09s6is"/>
+    </changeSet>
+    <changeSet id="1725536204061-9" author="ramtin.tfgh">
+        <dropTable cascadeConstraints="true" tableName="job_company"/>
+    </changeSet>
+    <changeSet id="1725536204061-10" author="ramtin.tfgh">
+        <dropTable cascadeConstraints="true" tableName="job_location"/>
+    </changeSet>
+    <changeSet id="1725536204061-11" author="ramtin.tfgh">
+        <dropTable cascadeConstraints="true" tableName="job_post_activity"/>
+    </changeSet>
+    <changeSet id="1725536204061-12" author="ramtin.tfgh">
+        <dropColumn columnName="apply_date" tableName="job_seeker_apply"/>
+
+        <dropColumn columnName="cover_letter" tableName="job_seeker_apply"/>
+
+        <dropColumn columnName="job" tableName="job_seeker_apply"/>
+    </changeSet>
+    <changeSet id="1725536204061-15" author="ramtin.tfgh">
+        <dropColumn columnName="job" tableName="job_seeker_save"/>
+    </changeSet>
+    <changeSet id="1725536204061-1" author="ramtin.tfgh">
+        <addNotNullConstraint columnDataType="BOOLEAN" columnName="is_active" tableName="users" validate="true"/>
+    </changeSet>
+
+</databaseChangeLog>
