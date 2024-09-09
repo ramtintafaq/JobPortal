@@ -66,9 +66,6 @@ This project is a full-stack web application built using **Spring Boot** that se
 - Create a job seeker profile, upload your resume, and manage skills.
 - Browse available jobs, apply for jobs, or save them for later.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contribution
 Feel free to open an issue or submit a pull request if you'd like to contribute to this project.
 
