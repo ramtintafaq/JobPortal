@@ -1,0 +1,8 @@
+# macOS system directories
+/Library/
+/.DS_Store
+/.Trash/
+/System/
+git add .
+git commit -m "Initial commit of Job Portal project"
+
