@@ -1,7 +1,7 @@
 # Spring Boot Job Portal Web Application
 
 ## Project Description
-This project is a full-stack web application built using **Spring Boot** that serves as a job portal platform. The platform allows recruiters to post job opportunities and job seekers to apply for them. The project is built with a responsive UI and offers functionalities such as job searching, resume upload, and profile management for both recruiters and job seekers.
+This project is a full-stack web application built using **Spring Boot** that serves as a job portal platform. The platform allows recruiters to post job opportunities and job seekers to apply for them. The application includes profile management for both recruiters and job seekers, job searching, resume upload, and application tracking.
 
 ## Features
 
@@ -21,30 +21,28 @@ This project is a full-stack web application built using **Spring Boot** that se
 - REST API to download resumes.
 
 ## Technologies Used
-- **Java 17**
+- **Java 22**
 - **Spring Boot 3.0**
 - **Spring Data JPA**
 - **Thymeleaf** for templating
 - **MySQL** for database management
 - **Spring Security** for authentication and role-based access control
 - **Maven** for dependency management
-- **Bootstrap** for responsive UI design
-- **WebJars** for front-end libraries
 
 ## Installation and Setup
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/job-portal-web-app.git
-    cd job-portal-web-app
+    git clone https://github.com/ramtintafaq/JobPortal.git
+    cd JobPortal
     ```
 
 2. **Configure the database**:
    - Edit the `src/main/resources/application.properties` file with your MySQL database credentials:
      ```properties
      spring.datasource.url=jdbc:mysql://localhost:3306/job_portal_db
-     spring.datasource.username=yourUsername
-     spring.datasource.password=yourPassword
+     spring.datasource.username=jobportal
+     spring.datasource.password=jobportal
      spring.jpa.hibernate.ddl-auto=update
      ```
 
@@ -68,15 +66,6 @@ This project is a full-stack web application built using **Spring Boot** that se
 - Create a job seeker profile, upload your resume, and manage skills.
 - Browse available jobs, apply for jobs, or save them for later.
 
-## Screenshots
-Here are a few screenshots of the application:
-
-1. **Recruiter Dashboard**:
-   ![Recruiter Dashboard](screenshots/recruiter-dashboard.png)
-
-2. **Job Seeker Profile**:
-   ![Job Seeker Profile](screenshots/job-seeker-profile.png)
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -84,4 +73,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Feel free to open an issue or submit a pull request if you'd like to contribute to this project.
 
 ## Contact
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact me via [LinkedIn](https://www.linkedin.com/in/ramtintafaghodi/).
